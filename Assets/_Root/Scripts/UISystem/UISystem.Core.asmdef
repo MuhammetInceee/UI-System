@@ -1,0 +1,16 @@
+{
+    "name": "UISystem.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7c21a2c703665c044a47b7d78124f078"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

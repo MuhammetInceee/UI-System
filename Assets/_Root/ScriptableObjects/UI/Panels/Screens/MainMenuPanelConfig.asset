@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c02e535b5404c53b3cc8776b986304a, type: 3}
+  m_Name: MainMenuPanelConfig
+  m_EditorClassIdentifier: Iddia.IdleTamplate.UISystem::Iddia.IdleTemplate.UISystem.UIPanelConfig
+  panelID: cb4c5069-ed9f-48d1-8111-86a198ec9a11
+  panelPrefab: {fileID: 6623454651315883088, guid: 3e7d61e35b005ed43bd192d3af0302d3, type: 3}
+  panelType: 0
+  loadType: 0
+  interactionLayer: 0
+  allowBackButton: 1
+  keepOnScreenChange: 0
+  baseSortOrder: 100
+  renderMode: 0
+  overrideSorting: 1
+  pixelPerfect: 0
+  toastDuration: 3
