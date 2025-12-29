@@ -218,7 +218,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built for the IdleTemplate game framework
 
 ---
-
-<p align="center">
-  Made with ❤️ for Unity Developers
-</p>
