@@ -1,4 +1,4 @@
-# 🎮 IdleTemplate UI System
+# 🎮 UI System
 
 A powerful, stack-based UI management framework for Unity, designed with mobile-first principles and scalability in mind.
 
@@ -62,7 +62,7 @@ Canvas
 ### 2. Create a Panel
 
 ```csharp
-using IdleTemplate.UISystem;
+using UISystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -89,7 +89,7 @@ public class MainMenuPanel : UIPanel
 
 ### 3. Create Config Asset
 
-`Right Click → Create → IdleTemplate → UI System → Panel Config`
+`Right Click → Create → UI System → Panel Config`
 
 ### 4. Open Panels from Anywhere
 
@@ -162,7 +162,7 @@ Create a `CanvasScalingStrategy` asset to handle different aspect ratios:
 
 ## 🔧 Editor Tools
 
-Open the debug window: `IdleTemplate → Tools → UI Debug Window`
+Open the debug window: `UISystem → Tools → UI Debug Window`
 
 - 📊 View active Screen and Popup stacks
 - 👁️ See all loaded panels and states
@@ -215,6 +215,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Inspired by best practices from mobile game development
-- Built for the IdleTemplate game framework
 
 ---
