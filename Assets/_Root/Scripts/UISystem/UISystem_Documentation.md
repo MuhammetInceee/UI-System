@@ -163,7 +163,7 @@ protected void RequestOpenPanel<T>(object data = null, Action<object> callback =
 
 A ScriptableObject that defines the metadata and behavior settings for a UI Panel.
 
-**Create via:** `Right Click → Create → IdleTemplate → UI System → Panel Config`
+**Create via:** `Right Click → Create → UI System → Panel Config`
 
 **Configuration Fields:**
 
@@ -274,7 +274,7 @@ UIEvents.SetGlobalInteraction(true);
 
 A ScriptableObject that defines responsive scaling behavior for different device aspect ratios.
 
-**Create via:** `Right Click → Create → IdleTemplate → UI System → Canvas Scaling Strategy`
+**Create via:** `Right Click → Create → UI System → Canvas Scaling Strategy`
 
 **Configuration:**
 
@@ -427,7 +427,7 @@ public class CutsceneManager : MonoBehaviour
 ### Step 1: Create the Panel Class
 
 ```csharp
-using IdleTemplate.UISystem;
+using UISystem;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -486,7 +486,7 @@ public class InventoryPanel : UIPanel
 
 ### Step 3: Create the Config
 
-1. `Right Click → Create → IdleTemplate → UI System → Panel Config`
+1. `Right Click → Create → UI System → Panel Config`
 2. Name it `InventoryPanelConfig`
 3. Assign the prefab to `Panel Prefab`
 4. Configure `Panel Type`, `Load Type`, and other settings
@@ -521,7 +521,7 @@ protected override void PlayHideAnimation(Action onComplete)
 
 A custom editor window for real-time UI system debugging.
 
-**Open via:** `IdleTemplate → Tools → UI Debug Window`
+**Open via:** `UISystem → Tools → UI Debug Window`
 
 **Features:**
 - View current Screen and Popup stacks
@@ -586,4 +586,4 @@ UISystem/
 ## Version
 
 **UI System v1.0**  
-Namespace: `IdleTemplate.UISystem`
+Namespace: `UISystem`
